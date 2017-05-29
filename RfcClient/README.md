@@ -36,7 +36,7 @@ session.CallFunction(fn, true);
 // process the result
 foreach (RfcFields row in fn.Tables["FLIGHT_LIST"].Rows)
 {
-	Console.WriteLine(row["AIRLINE"].value + " " + row["FLIGHTDATE"].value);
+    Console.WriteLine(row["AIRLINE"].value + " " + row["FLIGHTDATE"].value);
 }
 ```
 

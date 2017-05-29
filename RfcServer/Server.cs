@@ -77,7 +77,7 @@ namespace RfcServerExample
             Console.WriteLine("Starting server...");
             srv.Serve();
 
-            if (false && srv.Error == true)
+            if (srv.Error == true)
             {
                 Console.WriteLine("Error: Could not start server.");
                 Console.WriteLine(srv.ErrorInfo.Message);

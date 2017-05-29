@@ -37,7 +37,7 @@ tr.Read(0, 0);
 // process the result
 foreach (RfcFields row in tr.Rows)
 {
-	Console.WriteLine(row["CONNID"].value + " " + row["FLDATE"].value + " " + row["CARRID"].value);
+    Console.WriteLine(row["CONNID"].value + " " + row["FLDATE"].value + " " + row["CARRID"].value);
 }
 ```
 
