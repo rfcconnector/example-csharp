@@ -25,7 +25,7 @@ session.LogonData.Language = "EN";
 session.Connect();
  
 // import function module's prototype
-FunctionCall fn = Session.ImportCall("BAPI_FLIGHT_GETLIST", true);
+FunctionCall fn = session.ImportCall("BAPI_FLIGHT_GETLIST", true);
  
 // set importing parameters
 fn.Importing["AIRLINE"].value = "LH";
